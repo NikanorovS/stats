@@ -1,0 +1,31 @@
+/*Обнуление*/
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+/*--------------------*/
+
+h1 {
+	padding-top: 0.5em;
+    text-align: center;
+}
+
+h2 {
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	padding-right: 1.5em;
+	text-align: center;
+}
+tr, th {
+	border: 1px solid black;
+	padding: 5px;
+}
+table {
+	padding-bottom: 1.5em;
+	margin: auto;
+	border-collapse:collapse;
+}
+td {
+	padding: 3px;
+}
