@@ -16,10 +16,22 @@ h2 {
 	padding-bottom: 1em;
 	padding-right: 1.5em;
 	text-align: center;
+	font-family: Comic Sans MS;
+	font-weight: 600;
+	font-size: 20px;
 }
 
 table {
 	padding-bottom: 1.5em;
 	margin: auto;
 	border-collapse:collapse;
+	border: 1px solid aqua;
+	padding: 5px;
+}
+.date {
+	text-align: center;
+}
+th {
+	border: 1px solid aqua;
+	padding: 5px;
 }
