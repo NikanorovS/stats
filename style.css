@@ -17,15 +17,9 @@ h2 {
 	padding-right: 1.5em;
 	text-align: center;
 }
-tr, th {
-	border: 1px solid black;
-	padding: 5px;
-}
+
 table {
 	padding-bottom: 1.5em;
 	margin: auto;
 	border-collapse:collapse;
-}
-td {
-	padding: 3px;
 }
