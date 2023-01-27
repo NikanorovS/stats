@@ -1,12 +1,12 @@
 'use strict'
-
+/**Защита копирования */ 
 document.onselectstart = noselect;
 document.ondragstart = noselect;
 document.oncontextmenu = noselect;
 function noselect() {
     return false;
 };
-
+/**Автоматическая нумерация */
 let el = document.getElementsByClassName('list_numbers');
 
 function ListNumbers(el) {
@@ -18,7 +18,7 @@ function ListNumbers(el) {
 };
 
 ListNumbers(el);
-
+/**Автоматическая дата на странице */
 function getDate() {
     let date = new Date();
 
