@@ -35,9 +35,10 @@ table {
 	color: #6E6702;
 	
 }
-th {
+th, td {
 	border: 1px solid #2E2300;
 	padding: 5px;
+	text-align: center;
 }
 img {
 	display: block;
