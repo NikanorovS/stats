@@ -2,7 +2,7 @@
 
 let el = document.getElementsByClassName('list_numbers');
 
-function ListNumbers() {
+function ListNumbers(el) {
 
     for(let i = 0; i < el.length; i++) {
         el[i].textContent = i + 1;
@@ -10,10 +10,14 @@ function ListNumbers() {
     
 };
 
+ListNumbers(el);
 
-ListNumbers();
+function getDate() {
+    let date = new Date();
 
-let date = new Date();
+    document.getElementById('date').textContent = 'от ' +
+    date.getDate() + '.' + date.getMonth() + 1 + '.' + date.getFullYear();
+};
 
-document.getElementById('date').textContent = 
-date.getDate() + '.' + date.getMonth() + 1 + '.' + date.getFullYear();
+getDate();
+
