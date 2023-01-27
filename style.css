@@ -28,6 +28,7 @@ table {
 	border-collapse:collapse;
 	border: 1px solid #2E2300;
 	padding: 5px;
+	width: 85%;
 }
 .date {
 	text-align: center;
