@@ -43,3 +43,6 @@ img {
 	display: block;
 	margin: auto;
 }
+.empty {
+	height: 100px;
+}
