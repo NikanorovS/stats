@@ -1,5 +1,12 @@
 'use strict'
 
+document.onselectstart = noselect;
+document.ondragstart = noselect;
+document.oncontextmenu = noselect;
+function noselect() {
+    return false;
+};
+
 let el = document.getElementsByClassName('list_numbers');
 
 function ListNumbers(el) {
