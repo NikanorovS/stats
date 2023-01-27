@@ -28,7 +28,7 @@ table {
 	margin: auto;
 	border-collapse:collapse;
 	border: 1px solid #2E2300;
-	padding: 5px;
+	padding: 5px 0 10px 0;
 	width: 85%;
 }
 .date {
