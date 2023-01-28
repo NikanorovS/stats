@@ -9,6 +9,7 @@ function noselect() {
 /**Автоматическая нумерация */
 let el = document.getElementsByClassName('list_numbers');
 
+'use strict'
 function ListNumbers(el) {
 
     for(let i = 0; i < el.length; i++) {
@@ -19,12 +20,7 @@ function ListNumbers(el) {
 
 ListNumbers(el);
 /**Автоматическая дата на странице */
-function getDate() {
-    let date = new Date();
-
-    document.getElementById('date').textContent = 'от ' +
-    date.getDate() + '.' + date.getMonth() + 1 + '.' + date.getFullYear();
-};
+import getDate from "./getdate.js";
 
 getDate();
 
