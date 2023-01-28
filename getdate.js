@@ -1,3 +1,5 @@
+'use strict'
+
 export default function getDate() {
     let date = new Date();
 
