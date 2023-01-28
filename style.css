@@ -25,10 +25,9 @@ h2 {
 
 table {
 	padding-bottom: 1.5em;
-	margin: auto;
+	margin: 10px auto;
 	border-collapse:collapse;
 	border: 1px solid #2E2300;
-	padding: 5px 0 10px 0;
 	width: 88%;
 }
 .date {
@@ -43,7 +42,9 @@ th, td {
 }
 img {
 	display: block;
-	margin: auto;
+	margin: 5px auto;
+	height: 15%;
+	width: 15%;
 }
 .empty {
 	height: 100px;
