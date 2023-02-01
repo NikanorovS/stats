@@ -16,17 +16,29 @@ import getDate from "./getdate.js";
 getDate();
 
 /**Пароль */
-
-function passwordCheck() {
-    let pass = prompt("Enter password",'');
-    if (pass === '0000') {
-        document.body.style.display = 'block';
-        return true
-    } else {
-        alert('Password incorrect!')
-        document.body.style.display = 'none';
-        return false
-    }
-}
+import passwordCheck from "./passcheck.js";
 
 window.onload = passwordCheck;
+/*
+function tableSearch() {
+    var phrase = document.getElementById('search-text');
+    var table = document.getElementById('info-table');
+    var regPhrase = new RegExp(phrase.value, 'i');
+    var flag = false;
+    for (var i = 1; i < table.rows.length; i++) {
+        flag = false;
+        for (var j = table.rows[i].cells.length - 1; j >= 0; j--) {
+            flag = regPhrase.test(table.rows[i].cells[j].innerHTML);
+            if (flag) break;
+        }
+        if (flag) {
+            table.rows[i].style.display = "";
+        } else {
+            table.rows[i].style.display = "none";
+        }
+
+    }
+}
+let obj = document.getElementById('search-text');
+obj.addEventListener('keyup', tableSearch);
+*/
