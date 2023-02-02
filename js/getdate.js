@@ -4,5 +4,5 @@ export default function getDate() {
     let date = new Date();
 
     document.getElementById('date').textContent = 'от ' +
-    date.getDate() + '.' + date.getMonth() + 1 + '.' + date.getFullYear();
+    String(date.getDate()).padStart(2, '0') + '.' + String(date.getMonth() + 1).padStart(2, '0') + '.' + date.getFullYear();
 }
