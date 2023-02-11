@@ -19,6 +19,8 @@ getDate();
 import passwordCheck from "./passcheck.js";
 
 window.onload = passwordCheck;
+
+
 /*
 function tableSearch() {
     
@@ -61,8 +63,10 @@ function tableSearch() {
       if (th) {
         txtValue = th.textContent || th.innerText;
         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+          
           tr[i].style.display = "";
         } else {
+         
           tr[i].style.display = "none";
           
         }
