@@ -33,7 +33,7 @@ function tableSearch() {
         flag = false;
         for (var j = table.rows[i].cells.length - 1; j >= 0; j--) {
             flag = regPhrase.test(table.rows[i].cells[j].innerHTML);
-            
+            console.log(flag)
             if (flag) break;
             
         }
@@ -48,7 +48,7 @@ function tableSearch() {
 }
 document.getElementById('search-text').addEventListener('keyup', tableSearch);
 */
-/*
+
 function tableSearch() {
     // Объявить переменные
     var input, filter, table, tr, th, i, txtValue;
@@ -66,12 +66,13 @@ function tableSearch() {
           
           tr[i].style.display = "";
         } else {
-         
+          
           tr[i].style.display = "none";
           
         }
       }
+      
     }
   }
   document.getElementById('search-text').addEventListener('keyup', tableSearch);
-  */
+  
