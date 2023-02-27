@@ -48,7 +48,7 @@ function tableSearch() {
 }
 document.getElementById('search-text').addEventListener('keyup', tableSearch);
 */
-
+/*
 function tableSearch() {
     // Объявить переменные
     var input, filter, table, tr, th, i, txtValue;
@@ -75,4 +75,4 @@ function tableSearch() {
     }
   }
   document.getElementById('search-text').addEventListener('keyup', tableSearch);
-  
+  */
