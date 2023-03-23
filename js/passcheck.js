@@ -2,7 +2,7 @@
 
 export default function passwordCheck() {
     let pass = prompt("Enter password",'');
-    if (pass === '0000') {
+    if (pass === '1989') {
         document.body.style.display = 'block';
         return true
     } else {
