@@ -18,7 +18,7 @@ jQuery(document).ready(function () {
     			success: function(data) {
     				form.html(data);
     				form.css('opacity','1');
-                    //form.find('.status').html('форма отправлена успешно');
+                    form.find('.status').html('форма отправлена успешно');
                     //$('#myModal').modal('show') // для бутстрапа
     			},
     			error:	 function() {
