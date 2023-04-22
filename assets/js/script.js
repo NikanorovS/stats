@@ -14,9 +14,11 @@ form.addEventListener('submit', function(event) {
   .then(response => {
     console.log(response);
     window.open('./thanks/index.html');
+	form.reset();
   })
   .catch(error => {
     console.error(error);
-    // действия при ошибке отправки формы
+    window.open('./error/index.html');
+	form.reset();
   });
 });
