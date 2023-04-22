@@ -13,7 +13,7 @@ form.addEventListener('submit', function(event) {
   })
   .then(response => {
     console.log(response);
-    // действия после успешной отправки формы
+    window.open('./thanks/index.html');
   })
   .catch(error => {
     console.error(error);
