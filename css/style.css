@@ -98,7 +98,12 @@ footer {
     align-items: center;
 }
 
-
+.line {
+    width: 100px;
+    height: 3px;
+    background-color: var(--color1);
+    margin: 15px auto 30px;
+}
 
 
 
