@@ -77,3 +77,19 @@ footer {
     width: 100%;
     height: 100%;
 }
+
+.color1 {
+    color: var(--color1);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg1 {
+   background-color: var(--color1);
+}
+
+.bg2 {
+    background-color: var(--color2);
+}
