@@ -131,7 +131,7 @@ footer {
 
 .accordion-button:not(.collapsed) {
     color: var(--bs-white);
-    background-color: var(--color2);
+    background-color: violet;
 }
 
 .accordion-button:not(.collapsed)::after {
