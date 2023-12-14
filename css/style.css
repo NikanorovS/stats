@@ -78,7 +78,7 @@ footer {
     height: 100%;
 }
 
-.about {
+.about, .shedule {
     background-color: #eee;
 }
 
@@ -126,4 +126,9 @@ footer {
 .forwhom h5 {
     padding: 40px;
     border: 3px solid var(--color1);
+}
+
+.accordion-button:not(.collapsed) {
+    color: var(--bs-black);
+    background-color: var(--bs-white);
 }
