@@ -10,6 +10,7 @@ section {
 }
 
 header {
+    height: 100vh;
     padding: 200px 0;
 
 }
