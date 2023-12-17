@@ -10,7 +10,6 @@ section {
 }
 
 header {
-    height: 100vh;
     padding: 200px 0;
 
 }
@@ -109,7 +108,6 @@ footer {
 }
 
 
-
 .color1 {
     color: var(--color1);
 }
@@ -145,4 +143,6 @@ footer {
     border: 3px solid var(--color1);
 }
 
-@media screen and (max-width: 900px) {   header {    height: 100vh;   }  }
+@media screen and (max-width: 575px) {   .mockup {    margin-top: 25px;   }  }
+
+
