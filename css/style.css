@@ -145,4 +145,4 @@ footer {
 }
 
 @media screen and (min-width: 575px) {   .mockup {    margin-top: 25px;   }  }
-@media screen and (max-width: 900px) {   header {    height: 100vh;   }
+@media screen and (max-width: 900px) {   header {    height: 100vh;   } }
